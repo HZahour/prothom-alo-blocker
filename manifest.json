@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Prothom Alo Blocker",
+    "description": "Block Prothom Alo scripts, popups, etc.",
+    "version": "1.0",
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.prothomalo.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
