@@ -1,13 +1,12 @@
-// Select the first div element with the class 'container'
-var outerContainer = document.querySelector('div#outercontainer');
-var bottomContainer = document.querySelector('div.bottom-container');
+var popup = document.querySelector('div#outercontainer');
+var bottomSticky = document.querySelector('div.bottom-container');
 
-// Remove the selected element if it exists
-if (outerContainer) {
-    outerContainer.remove();
+// Remove the popup
+if (popup) {
+    popup.remove();
 }
 
-// Remove the selected element if it exists
-if (bottomContainer) {
-    bottomContainer.remove();
+// Remove the bottom sticky
+if (bottomSticky) {
+    bottomSticky.remove();
 }
