@@ -1,2 +1,3 @@
 # Prothom Alo Blocker
-It blocks scripts, popups only on prothomalo.com website
+This is a extension for Google Chrome and Microsoft Edge Internet Browser.
+It blocks irritating scripts, popups of prothomalo.com website.

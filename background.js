@@ -1,0 +1,1 @@
+// There is no script in the background.js file.
